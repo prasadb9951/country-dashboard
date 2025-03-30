@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Country Dashboard
 
-## Getting Started
+A React-based dashboard that allows you to view country details, with features including search, filter by region, and sorting by population. The application uses Next.js for server-side rendering and fetching country data from a public API.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search**: Search for countries by name or capital.
+- **Filter**: Filter countries by region (e.g., Africa, Europe, etc.).
+- **Sort**: Sort countries by population in ascending or descending order.
+- **Responsive Design**: The dashboard is fully responsive, adapting to mobile, tablet, and desktop views.
+- **Country Details**: View detailed information for each country, including capital, region, population, and languages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ensure that you have the following installed on your machine:
 
-## Learn More
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (or use yarn if preferred)
 
-To learn more about Next.js, take a look at the following resources:
+### Steps to Install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/prasadb9951/country-dashboard.git
 
-## Deploy on Vercel
+2. Navigate to the project directory:
+ 
+   cd country-dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install the dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   npm install
+
+4. Run the development server:
+
+   npm run dev
+
+5. Test :
+
+  npm run test.
